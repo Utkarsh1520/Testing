@@ -48,7 +48,7 @@ body{
 .herodiv{
     display: flex;
     justify-content: end;
-    margin-right: 96px;
+    margin-right: 116px;
 }
 
 .herocontent{
@@ -116,4 +116,30 @@ body{
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.3px;
+}
+
+.heading p{
+    color: #014B40;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+
+.view p{
+    color: #014B40;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+.featured{
+    display: flex;
+    margin: 64px 116px;
+    align-items: center;
+    justify-content: space-between;
 }
