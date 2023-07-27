@@ -1,5 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+body{
+    margin: 0px;
+}
+
 .hero{
     width: auto;
-    height: 790px;
+    height: 760px;
     background-image: url("Mask\ group.svg");
+}
+
+.navbg{
+    background: rgba(255, 255, 255, 0.20);
+    backdrop-filter: blur(5px);
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 64px;
+    padding: 6px;
+    align-items: center;
+}
+
+.leftnav{
+    display: flex;
+    gap: 16px;
+}
+
+.leftnav p{
+    color: #014B40;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.3px;
+}
+
+.navicons{
+    display: flex;
+    gap: 16px;
+}
+
+.herodiv{
+    display: flex;
+    justify-content: end;
+    margin-right: 96px;
+}
+
+.herocontent{
+    margin-top: 24px;
+}
+
+.herotxt p{
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px; /* 133.333% */
+    width: 500px;
+}
+
+.proddrop{
+    display: flex;
+    gap: 6px;
+}
+
+.herosubtxt p{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    letter-spacing: 0.3px;
+    width: 500px;
+}
+
+.btn button{
+    border-radius: 10px;
+    border: 0px;
+    background: #014B40;
+    width: 156px;
+    height: 59px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.2px;
+}
+
+.cta{
+    display: flex;
+    gap: 24px;
+}
+
+.explore{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.txt p{
+    color: #EFF7F5;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.3px;
 }
