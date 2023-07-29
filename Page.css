@@ -236,3 +236,39 @@ body{
     letter-spacing: 0.3px;
     margin-top: 0px !important;
 }
+
+.searchflowers{
+    height: 230px;
+    flex-shrink: 0;
+    background-color: #014B40;
+    margin-top: 64px;
+    background-image: url("Resources/bg-element.png");
+    background-repeat: no-repeat;
+}
+
+.search-icon{
+    width: 59px;
+    height: 60px;
+    flex-shrink: 0;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.search-icon img{
+    margin: 15px 0px 0px 15px;
+}
+
+.inputs{
+    display: flex;
+    padding: 64px;
+    justify-content: space-between;
+    margin: 0px 116px;
+}
+
+.searchbox input{
+    height: 62px;
+    width: 964px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
