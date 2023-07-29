@@ -4,6 +4,7 @@
 
 body{
     margin: 0px;
+    padding-bottom: 50px;
 }
 
 .hero{
@@ -140,9 +141,23 @@ body{
     line-height: normal;
     letter-spacing: 0.5px;
 }
+
 .featured{
     display: flex;
-    margin: 64px 116px;
     align-items: center;
     justify-content: space-between;
+    margin: 64px 116px;
+}
+
+.cards{
+    display: flex;
+    margin: 0px 116px;
+    justify-content: space-between;
+}
+
+.card1 img{
+    width: 386px;
+    height: 360px;
+    border-radius: 20px;
+    flex-shrink: 0;
 }
