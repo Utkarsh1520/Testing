@@ -4,6 +4,7 @@
 
 body{
     margin: 0px;
+    padding-bottom: 50px;
 }
 
 .hero{
@@ -66,6 +67,7 @@ body{
 }
 
 .proddrop{
+    cursor: pointer;
     display: flex;
     gap: 6px;
 }
@@ -82,6 +84,7 @@ body{
 }
 
 .btn button{
+    cursor: pointer;
     border-radius: 10px;
     border: 0px;
     background: #014B40;
@@ -103,6 +106,7 @@ body{
 }
 
 .explore{
+    cursor: pointer;
     display: flex;
     gap: 6px;
     align-items: center;
@@ -137,9 +141,134 @@ body{
     line-height: normal;
     letter-spacing: 0.5px;
 }
+
 .featured{
     display: flex;
-    margin: 64px 116px;
     align-items: center;
     justify-content: space-between;
+    margin: 64px 116px;
+}
+
+.cards{
+    display: flex;
+    margin: 0px 116px;
+    justify-content: space-between;
+}
+
+.card1 img{
+    width: 386px;
+    height: 360px;
+    border-radius: 20px;
+    flex-shrink: 0;
+}
+
+.card2 img{
+    width: 386px;
+    height: 360px;
+    border-radius: 20px;
+    flex-shrink: 0;
+}
+
+.card3 img{
+    width: 386px;
+    height: 360px;
+    border-radius: 20px;
+    flex-shrink: 0;
+}
+
+.card1:hover .description{
+    display: flex;
+}
+
+.card2:hover .description{
+    display: flex;
+}
+
+.card3:hover .description{
+    display: flex;
+}
+
+.description{
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -120px;
+    height: 116px;
+    padding: 0px 24px;
+    border-radius: 0px 0px 20px 20px;
+    background: rgba(1, 75, 64, 0.20);
+    backdrop-filter: blur(5px);
+}
+
+.description button{
+    width: 79px;
+    height: 35px;
+    flex-shrink: 0;
+    border: 1px solid white;
+    color: #FFF;
+    border-radius: 6px;
+    background-color: initial;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.description p{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    margin-top: 48px;
+}
+
+.description h6{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    margin-top: 0px !important;
+}
+
+.searchflowers{
+    height: 230px;
+    flex-shrink: 0;
+    background-color: #014B40;
+    margin-top: 64px;
+    background-image: url("Resources/bg-element.png");
+    background-repeat: no-repeat;
+}
+
+.search-icon{
+    width: 59px;
+    height: 60px;
+    flex-shrink: 0;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.search-icon img{
+    margin: 15px 0px 0px 15px;
+}
+
+.inputs{
+    display: flex;
+    padding: 64px;
+    justify-content: space-between;
+    margin: 0px 116px;
+}
+
+.searchbox input{
+    height: 62px;
+    width: 964px;
+    border-radius: 10px;
+    border: 1px solid white;
 }
