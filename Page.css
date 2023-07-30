@@ -1,11 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
-
 body{
     margin: 0px;
-    padding-bottom: 50px;
+    padding-bottom: 64px;
 }
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: azure;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #014B40;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+  }
 
 .hero{
     width: auto;
@@ -18,10 +30,14 @@ body{
     backdrop-filter: blur(5px);
 }
 
+.web-logo{
+    margin-right: 176px;
+}
+
 .nav{
     display: flex;
     justify-content: space-between;
-    margin: 0px 64px;
+    margin: 0px 116px;
     padding: 6px;
     align-items: center;
 }
@@ -261,14 +277,48 @@ body{
 
 .inputs{
     display: flex;
-    padding: 64px;
     justify-content: space-between;
     margin: 0px 116px;
+    align-items: center;
+    padding-top: 84px;
 }
 
 .searchbox input{
     height: 62px;
-    width: 964px;
+    width: 1096px;
     border-radius: 10px;
     border: 1px solid white;
+}
+
+.searchbox ::placeholder{
+    color: #014B40;
+    padding-left: 12px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.3px;
+}
+
+.arrivals{
+    display: flex;
+    margin: 0px 116px;
+    justify-content: space-between;
+}
+
+.arrivals img{
+    border-radius: 24px;
+}
+
+.arrivals img:hover{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.banner{
+    height: 230px;
+    flex-shrink: 0;
+    margin-top: 64px;
+    background-image: url("Resources/shipping-banner.png");
+    background-repeat: no-repeat;
 }
