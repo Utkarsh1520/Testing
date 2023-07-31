@@ -287,11 +287,19 @@ body::-webkit-scrollbar {
     width: 1096px;
     border-radius: 10px;
     border: 1px solid white;
-}
+    outline: none;
+    color: #014B40;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    padding-left: 12px;
+    }
 
 .searchbox ::placeholder{
     color: #014B40;
-    padding-left: 12px;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
@@ -389,9 +397,12 @@ body::-webkit-scrollbar {
 
 .footer{
     background-color: #014B40;
+    padding: 116px 116px;
+}
+
+.footer-links{
     display: flex;
     justify-content: space-between;
-    padding: 116px 116px;
 }
 
 .about{
@@ -437,6 +448,7 @@ body::-webkit-scrollbar {
 .Contact-Us-fields{
     display: flex;
     gap: 12px;
+    margin-top: 24px;
 }
 
 .fields-head p{
@@ -449,11 +461,84 @@ body::-webkit-scrollbar {
     margin: 0px;
 }
 
-.fields-data{
+.fields-data p{
     color: #FFF;
     font-family: Poppins;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin: 0px !important;
+}
+
+.newsletter-email{
+    width: 437px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.10);
+    display: flex;
+    align-items: center;
+}
+
+.newsletter-email input{
+    width: 437px;
+    height: 64px;
+    background: transparent;
+    border: transparent;
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    outline: none;
+    padding-left: 12px;
+}
+
+.newsletter-email ::placeholder{
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* padding-left: 12px; */
+}
+
+.newsletter-email button{
+    height: 44px;
+    width: 61px;
+    border-radius: 10px;
+    background: #014B40;
+    border: #014B40;
+    margin-right: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-copyright{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.10);
+    margin-top: 64px;
+}
+
+.footer-copyright p{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.socials{
+    display: flex;
+    align-items: center;
+    gap: 24px;
 }
