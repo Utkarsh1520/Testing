@@ -171,22 +171,22 @@ body::-webkit-scrollbar {
 }
 
 .card1 img{
-    width: 386px;
-    height: 360px;
+    width: auto;
+    height: 412px;
     border-radius: 20px;
     flex-shrink: 0;
 }
 
 .card2 img{
-    width: 386px;
-    height: 360px;
+    width: auto;
+    height: 412px;
     border-radius: 20px;
     flex-shrink: 0;
 }
 
 .card3 img{
-    width: 386px;
-    height: 360px;
+    width: auto;
+    height: 412px;
     border-radius: 20px;
     flex-shrink: 0;
 }
