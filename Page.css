@@ -3,6 +3,8 @@
 
 body{
     margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
 body::-webkit-scrollbar {
@@ -54,6 +56,7 @@ body::-webkit-scrollbar {
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.3px;
+
 }
 
 .navicons{
