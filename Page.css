@@ -3,25 +3,16 @@
 
 body{
     margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
-
-body::-webkit-scrollbar {
-    width: 12px;               /* width of the entire scrollbar */
-  }
-  
-  body::-webkit-scrollbar-track {
-    background: azure;        /* color of the tracking area */
-  }
-  
-  body::-webkit-scrollbar-thumb {
-    background-color: #014B40;    /* color of the scroll thumb */
-    border-radius: 20px;       /* roundness of the scroll thumb */
-  }
 
 .hero{
     width: auto;
     height: 760px;
     background-image: url("Resources/Mask\ group.svg");
+    background-repeat: no-repeat;
+    object-fit: cover;
 }
 
 .navbg{
@@ -54,6 +45,7 @@ body::-webkit-scrollbar {
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.3px;
+
 }
 
 .navicons{
@@ -172,21 +164,21 @@ body::-webkit-scrollbar {
 
 .card1 img{
     width: auto;
-    height: 412px;
+    height: 336px;
     border-radius: 20px;
     flex-shrink: 0;
 }
 
 .card2 img{
     width: auto;
-    height: 412px;
+    height: 336px;
     border-radius: 20px;
     flex-shrink: 0;
 }
 
 .card3 img{
     width: auto;
-    height: 412px;
+    height: 336px;
     border-radius: 20px;
     flex-shrink: 0;
 }
@@ -253,12 +245,12 @@ body::-webkit-scrollbar {
 }
 
 .searchflowers{
-    height: 230px;
-    flex-shrink: 0;
+    height: 184px;
     background-color: #014B40;
     margin-top: 64px;
     background-image: url("Resources/bg-element.png");
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .search-icon{
@@ -279,12 +271,11 @@ body::-webkit-scrollbar {
     justify-content: space-between;
     margin: 0px 116px;
     align-items: center;
-    padding-top: 84px;
 }
 
 .searchbox input{
     height: 62px;
-    width: 1096px;
+    width: 896px;
     border-radius: 10px;
     border: 1px solid white;
     outline: none;
