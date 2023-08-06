@@ -251,6 +251,10 @@ body{
     background-image: url("Resources/bg-element.png");
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 0px 116px;
+    justify-content: space-between;
 }
 
 .search-icon{
