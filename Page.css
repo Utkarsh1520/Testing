@@ -537,3 +537,17 @@ body{
     align-items: center;
     gap: 24px;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+            width: auto;
+            height: 760px;
+            background-image: url("Resources/Mask\ group.svg");
+            background-repeat: no-repeat;
+            object-fit: cover;
+            .navbg{
+                background: rgba(255, 255, 255, 0.20);
+                backdrop-filter: blur(5px);
+            }
+    }
+  }
