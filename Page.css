@@ -13,6 +13,7 @@ body{
     background-image: url("Resources/Mask\ group.svg");
     background-repeat: no-repeat;
     object-fit: cover;
+    background-size: cover;
 }
 
 .navbg{
